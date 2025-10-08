@@ -17,7 +17,7 @@
 
     <!-- Task to run the compiled Java program -->
     <target name="run" depends="compile">
-        <java classname="Main" fork="true">
+        <java classname="HelloWorld" fork="true">
             <classpath>
                 <pathelement path="${build.dir}"/>
             </classpath>
